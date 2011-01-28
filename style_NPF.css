@@ -1,0 +1,78 @@
+/* reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
+pre, form, fieldset, input, textarea, button, p, blockquote, th, td {padding: 0;margin: 0;}
+button { border-style: none;}
+fieldset, img {border: 0;}
+table {/*border-collapse: collapse;border-spacing: 0;*/}
+ol, ul {list-style: none;}
+address, caption, cite, code, dfn, th, var {font-weight: normal;font-style: normal;}
+h1, h2, h3, h4, h5, h6 {font-style: normal; font-weight: normal;}
+q:before, q:after {content: '';}
+abbr, acronym {border: 0;}
+
+body {
+	background-color: #32d030;
+	font-family: 'Allan', arial, serif;
+	letter-spacing: 0.16em;
+	word-spacing: 0.25em;
+  	line-height: 1.2;
+	text-align: center;
+}	
+
+h1 {
+	font-size: 30pt;
+	padding: 10px 0px 10px 0px;
+}
+
+h2 { font-size: 20pt;}
+h3 { font-size: 25pt;}
+
+input { width: 288px; height: 25px; border: 1px; }
+
+label {
+	display: none;
+	text-align: center;
+}
+
+p.logo {
+	right: 188px;
+	margin-left: 210px;
+	margin-top: 20px;
+}
+
+div.enews {	padding-right: 50px;}
+
+div.container {
+	width: 288px;
+	display: inline;
+	margin: 10px 0px 0px 0px;
+}
+
+submit a:hover {
+background-color: #369;
+color: #FFF;}
+
+.picture {
+	padding: 30px 0px 30px 0px;
+)
+
+.logo {
+	margin: 0px 25px 0 25px;
+	width: 200px;
+	
+}
+
+.newsletters {
+	width: 200px;
+}
+
+/* rounded corners */
+.rounded { -moz-border-radius: 15px;
+		   -khtml-border-radius: 15px;
+		   -webkit-border-radius: 15px; 
+		  	border-radius: 15px;
+		  	background:#FFF;
+		  	width: 288px; 
+		  	height: 45px;
+		  	border: 1px solid #FFF; 
+}
